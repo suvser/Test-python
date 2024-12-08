@@ -119,7 +119,7 @@ async def login(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(result, parse_mode="Markdown")
 
 async def run_bot():
-    bot_token = "7642316354:AAGLmFJaATCNwuq36SvWNOM7LvlEmkW3wsQ"
+    bot_token = "8133648677:AAELVpo2KO_KvKQ4jh1SBO7r45EwF60GxNg"
     app = Application.builder().token(bot_token).build()
     
     # Add handlers
